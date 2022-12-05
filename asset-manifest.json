@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.28ed18ac.css",
+    "main.js": "/Portfolio/static/js/main.156750ef.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/background.JPG": "/Portfolio/static/media/background.1c4adfaa9b60e35daaae.JPG",
+    "static/media/venue.jpg": "/Portfolio/static/media/venue.928678a1938877c76b76.jpg",
+    "static/media/weather.png": "/Portfolio/static/media/weather.12a1218bfbb91d97eba7.png",
+    "static/media/colin-profile.JPG": "/Portfolio/static/media/colin-profile.54cdeaec786cf8a19c09.JPG",
+    "static/media/final.png": "/Portfolio/static/media/final.187b4e071f7410d19b81.png",
+    "static/media/scheduler.png": "/Portfolio/static/media/scheduler.e4553a7526f5a6871b0e.png",
+    "static/media/colin-mcnatt-resume.docx": "/Portfolio/static/media/colin-mcnatt-resume.3540c01d7bfb7693d7f1.docx",
+    "static/media/quiz.png": "/Portfolio/static/media/quiz.43515f8e0db6a9ed6aad.png",
+    "static/media/tracker.png": "/Portfolio/static/media/tracker.9033001c505640fc677d.png",
+    "index.html": "/Portfolio/index.html",
+    "main.28ed18ac.css.map": "/Portfolio/static/css/main.28ed18ac.css.map",
+    "main.156750ef.js.map": "/Portfolio/static/js/main.156750ef.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28ed18ac.css",
+    "static/js/main.156750ef.js"
+  ]
+}
