@@ -9,8 +9,8 @@
 
 ## Links
 
-- [Github](https://github.com/colinmichael89)
-- [Github Pages Deployment](https://colinmichael89.github.io/portfolio/)
+- [Github](https://github.com/colinmichael89/Portfolio)
+- [Github Pages Deployment](https://colinmichael89.github.io/Portfolio/)
 
 ## Description
 
