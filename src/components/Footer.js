@@ -1,6 +1,7 @@
 // Footer to be displayed on all pages (links)
 
 import { Github, StackOverflow, Linkedin } from 'react-bootstrap-icons';
+import logo from '../assets/images/logo.png';
 
 function Footer() {
   return (
@@ -15,6 +16,16 @@ function Footer() {
               title="Github"
             >
               <Github className="icon" size={50} />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.pristinecleanbycolin.com/"
+              target="_blank"
+              rel="noreferrer"
+              title="Pristine Clean"
+            >
+              <img src={logo} alt="Company logo" className="icon" />
             </a>
           </li>
           <li>

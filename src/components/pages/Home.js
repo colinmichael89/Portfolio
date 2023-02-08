@@ -7,14 +7,21 @@ function Home() {
       <div className="row about">
         <h2>About</h2>
         <div className="col-lg-10">
-          Colin has lived in Denver, Colorado fo the past 5 years where he owns
-          and opeartes a commercial cleaning business. He has a passion for
-          technology and has been a self taught developer for the past 2 years.
-          He has a background in sales and customer service and is excited to
-          bring his skills to the tech industry. He is a graduate of the
-          University of Central Oklahoma with a degree in Business
-          Administration. He is a hard worker and is excited to learn and grow
-          in the tech industry.
+          Hi, I'm Colin, a newly certified Fullstack Developer. I graduated in
+          2015 from the University of Central Oklahoma with a Bachelors degree
+          in Business Management. Looking for adventure, I sold my home in 2017
+          and moved to Denver, Colorado. Using my knowledge of business I
+          started a commercial cleaning business, Pristine Clean, that I own and
+          operate currently. As my company grew and became more autonomous, I
+          began searching for a new passion to pursue. Having taken and enjoyed
+          a few computer programming classes in college, I chose to complete the
+          full-stack programming bootcamp at the University of Denver. I earned
+          my certificate in mid-December 2022, where I developed proficiencies
+          in HTML/CSS, JavaScript, GraphQL, MongoDB, Express.js along with many
+          other programming technologies. With my passion for learning I have
+          continued this path by taking multiple programming courses offered
+          through Udemy. With this new knowledge and skill set, I am excited to
+          start a new chapter in computer programming.
         </div>
       </div>
       <div className="row about-img">
