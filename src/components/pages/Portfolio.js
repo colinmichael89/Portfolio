@@ -1,7 +1,7 @@
 import Project from '../Project';
 import { projects } from '../ProjectData';
 
-export default function Portfolio() {
+function Portfolio() {
   return (
     <>
       <h2>Portfolio</h2>
@@ -19,3 +19,5 @@ export default function Portfolio() {
     </>
   );
 }
+
+export default Portfolio;
