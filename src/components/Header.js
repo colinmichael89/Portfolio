@@ -1,33 +1,18 @@
-import { useState } from 'react';
-import Navbar from './NavBar';
-import About from './About';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import Resume from './Resume';
+import React from 'react';
+import Navigation from './Navigation';
 
-const Header = () => {
-  const [currentPage, setCurrentPage] = useState('About');
-
-  const renderPage = () => {
-    if (currentPage === 'About') {
-      return <About />;
-    }
-    if (currentPage === 'Portfolio') {
-      return <Portfolio />;
-    }
-    if (currentPage === 'Resume') {
-      return <Resume />;
-    }
-    return <Contact />;
-  };
-
-  const handlePageChange = (page) => setCurrentPage(page);
+function Header({ currentPage, handlePageChange }) {
   return (
-    <>
-      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
-    </>
+    <header>
+      <div className="header-bg">
+        <h1>Colin McNatt</h1>
+        <Navigation
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+        />
+      </div>
+    </header>
   );
-};
+}
 
 export default Header;

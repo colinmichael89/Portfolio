@@ -1,13 +1,12 @@
-import Header from './components/Header';
-import Footer from './components/Footer';
-import './App.css';
+import PageContainer from './components/PageContainer';
 
 // Create App function. Pulls in Header
-export default function App() {
+function App() {
   return (
     <div>
-      <Header />
-      <Footer />
+      <PageContainer />
     </div>
   );
 }
+
+export default App;

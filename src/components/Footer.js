@@ -1,34 +1,46 @@
 // Footer to be displayed on all pages (links)
 
-const Footer = () => {
+import { Github, StackOverflow, Linkedin } from 'react-bootstrap-icons';
+
+function Footer() {
   return (
-    <footer className='text-center m-1 p-1 mt-auto'>
-      <a
-        className='footer-item m-1 p-1'
-        href='https://github.com/colinmichael89'
-        target='_blank'
-        rel='noreferrer'
-      >
-        Github
-      </a>
-      <a
-        className='footer-item m-1 p-1'
-        href='https://www.linkedin.com/in/colin-mcnatt-b92516183'
-        target='_blank'
-        rel='noreferrer'
-      >
-        LinkedIn
-      </a>
-      <a
-        className='footer-item m-1 p-1'
-        href='https://www.pristinecleanbycolin.com'
-        target='_blank'
-        rel='noreferrer'
-      >
-        Company Website
-      </a>
+    <footer className="footer">
+      <div className="footer-cont pb-3 pt-2">
+        <ul className="footer-ul">
+          <li>
+            <a
+              href="https://github.com/colinmichael89"
+              target="_blank"
+              rel="noreferrer noopener"
+              title="Github"
+            >
+              <Github className="icon" size={50} />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/colin-mcnatt-b92516183"
+              target="_blank"
+              rel="noreferrer noopener"
+              title="LinkedIn"
+            >
+              <Linkedin className="icon" size={50} />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://stackoverflow.com/users/19176041/colin-mcnatt"
+              target="_blank"
+              rel="noreferrer"
+              title="Stack Overflow"
+            >
+              <StackOverflow className="icon" size={50} />
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
   );
-};
+}
 
 export default Footer;
