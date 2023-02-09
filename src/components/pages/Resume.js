@@ -1,11 +1,13 @@
 import { FileEarmarkPerson } from 'react-bootstrap-icons';
+import resume from '../../assets/colin-mcnatt-resume.pdf';
+
 function Resume() {
   return (
     <>
       <h2 className="resume-title">
         Download My Resume {}
         <a
-          href="./assets/colin-mcnatt-resume.pdf"
+          href={resume}
           download="colin-mcnatt-resume.pdf"
           className="res-size"
           title="Resume"
