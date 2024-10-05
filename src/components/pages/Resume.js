@@ -1,5 +1,5 @@
 import { FileEarmarkPerson } from 'react-bootstrap-icons';
-import resume from '../../assets/colin-mcnatt-resume.pdf';
+import resume from '../../assets/Colin_McNatt_Resume.pdf';
 
 function Resume() {
   return (
