@@ -8,7 +8,7 @@ function Resume() {
         Download My Resume {}
         <a
           href={resume}
-          download="colin-mcnatt-resume.pdf"
+          download="Colin_McNatt_Resume.pdf"
           className="res-size"
           title="Resume"
         >
