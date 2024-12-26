@@ -18,10 +18,12 @@ function Home() {
           full-stack programming bootcamp at the University of Denver. I earned
           my certificate in mid-December 2022, where I developed proficiencies
           in HTML/CSS, JavaScript, GraphQL, MongoDB, Express.js along with many
-          other programming technologies. With my passion for learning I have
+          other programming technologies. With my passion for learning, I have
           continued this path by taking multiple programming courses offered
-          through Udemy. With this new knowledge and skill set, I am excited to
-          start a new chapter in computer programming.
+          through Udemy and am currently attending the University of Colorado
+          Boulder to earn my Bachelor of Science in Computer Science. With this
+          new knowledge and skill set, I am excited to start a new chapter in 
+          computer programming.
         </div>
       </div>
       <div className="row about-img">
